@@ -147,7 +147,7 @@ The file `tourism_schema.sql` contains the table structure and sample hotels and
 2. Start **MySQL** in XAMPP and create a database named `tourism`.
 3. Import `tourism_schema.sql` using phpMyAdmin.
 4. Add the **MySQL Connector/J** and **rs2xml** JAR files to the project libraries.
-5. Check the connection settings in `Conn.java` (default: `localhost:3306`, user `root`, empty password).
+5. Check the connection settings in `Conn.java`.
 6. Run `FrontPage.java`.
 
 ---
