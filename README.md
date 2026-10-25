@@ -6,7 +6,6 @@ A Java desktop application for managing a travel and tourism business — tour p
 
 Tourism Management System helps a travel company manage its customers, tour packages, hotels and bookings from one place. Customers can register, browse tour packages and hotels, book them, see the total cost and pay, while the admin manages customers and creates new tour packages. All data is stored in a centralised MySQL database, replacing slow manual record-keeping with a fast, user-friendly system.
 
-🎥 **Demo video:** [Watch on YouTube](https://youtu.be/V5Kx1NTVZw0)
 
 ---
 
@@ -82,45 +81,63 @@ The file `tourism_schema.sql` contains the table structure and sample hotels and
 
 > **Home – choose Admin or Customer**
 
-![Home](screenshots/01-home-role-selection.jpg)
+<img width="894" height="681" alt="01-home-role-selection" src="https://github.com/user-attachments/assets/477f2bc0-bd40-4668-9704-fe7aeb50f112" />
+
 
 > **Login, Sign-up and Forgot Password**
 
-![Login](screenshots/02-login.jpg)
-![Sign up](screenshots/03-signup.jpg)
-![Forgot password](screenshots/04-forgot-password.jpg)
+<img width="688" height="397" alt="02-login" src="https://github.com/user-attachments/assets/211e6ee8-8a1a-41c1-94d5-21eec49c06be" />
+
+<img width="692" height="408" alt="03-signup" src="https://github.com/user-attachments/assets/ae92d751-7b09-4380-9bd2-4467575e7a2a" />
+
+<img width="838" height="395" alt="04-forgot-password" src="https://github.com/user-attachments/assets/f8972332-e42d-4d66-956f-b0dfcdb057c5" />
+
 
 > **Customer Dashboard and Registration**
 
-![Customer dashboard](screenshots/05-customer-dashboard.jpg)
-![Register customer](screenshots/06-register-customer.jpg)
+<img width="1920" height="962" alt="05-customer-dashboard" src="https://github.com/user-attachments/assets/6643c848-4eca-43e4-b137-1f3aa199e82a" />
+
+<img width="839" height="546" alt="06-register-customer" src="https://github.com/user-attachments/assets/314d622c-84f2-49bf-8faa-5afa76fe08ec" />
+
 
 > **Tour Packages and Package Booking**
 
-![Tour packages](screenshots/07-tour-packages.jpg)
-![Book package](screenshots/08-book-package.jpg)
+<img width="915" height="623" alt="07-tour-packages" src="https://github.com/user-attachments/assets/4184b884-207d-4cf3-8b25-58782bfdb103" />
+
+<img width="1106" height="459" alt="08-book-package" src="https://github.com/user-attachments/assets/6eeb573e-9878-440d-9884-0a579ed2272e" />
+
 
 > **Hotel Booking**
 
-![Book hotel](screenshots/09-book-hotel.jpg)
-![Booked hotel details](screenshots/10-view-booked-hotel.jpg)
-![Hotels](screenshots/11-hotels.jpg)
+<img width="1122" height="630" alt="09-book-hotel" src="https://github.com/user-attachments/assets/df74e020-5463-4808-8de4-3bd5953e6935" />
+
+<img width="884" height="635" alt="10-view-booked-hotel" src="https://github.com/user-attachments/assets/fac1b253-b0cb-4025-a986-dace9b1c5da6" />
+
+<img width="912" height="715" alt="11-hotels" src="https://github.com/user-attachments/assets/82e65227-36ab-4494-aa2f-d754e6b34d67" />
+
 
 > **Destinations and Payment**
 
-![Destinations](screenshots/12-destinations.jpg)
-![Easypaisa payment](screenshots/13-easypaisa-payment.jpg)
+<img width="905" height="710" alt="12-destinations" src="https://github.com/user-attachments/assets/36a57e20-527a-41c2-a04e-4cfaad65a82f" />
+
+<img width="808" height="812" alt="13-easypaisa-payment" src="https://github.com/user-attachments/assets/c0afeada-e911-4c9e-a33c-6abba26e0a46" />
+
 
 > **Admin Dashboard and Management**
 
-![Admin dashboard](screenshots/14-admin-dashboard.jpg)
-![Update customer](screenshots/15-update-customer.jpg)
-![Delete customer](screenshots/16-delete-customer.jpg)
-![Create package](screenshots/17-create-package.jpg)
+<img width="1916" height="974" alt="14-admin-dashboard" src="https://github.com/user-attachments/assets/87a0a005-92b8-41a3-b893-ebbef0883fca" />
+
+<img width="840" height="550" alt="15-update-customer" src="https://github.com/user-attachments/assets/8808a3c4-04dc-47e2-80fe-33c4fc315494" />
+
+<img width="854" height="560" alt="16-delete-customer" src="https://github.com/user-attachments/assets/07f1d14c-c180-4cc9-9d54-a2a6c0e05a05" />
+
+<img width="557" height="451" alt="17-create-package" src="https://github.com/user-attachments/assets/c3ed99ee-8233-466f-963a-4b5409d57901" />
+
 
 > **Input Validation**
 
-![Validation](screenshots/18-input-validation.jpg)
+<img width="713" height="418" alt="18-input-validation" src="https://github.com/user-attachments/assets/d4f9ce60-d074-4389-b684-9e489d842472" />
+
 
 ---
 
@@ -158,10 +175,6 @@ The file `tourism_schema.sql` contains the table structure and sample hotels and
 
 Looking back at this early project with a cyber security background, these are the improvements I would make:
 
-- Use `PreparedStatement` for **every** query (some modules still build SQL with string concatenation, which can allow SQL injection)
-- **Hash passwords** (e.g. bcrypt) instead of storing them in plain text
-- Add **role-based access control** in the database instead of separate login screens only
-- Move database credentials into a configuration file
 - Add primary keys, foreign keys and numeric data types for prices and counts
 
 ---
@@ -181,4 +194,8 @@ Looking back at this early project with a cyber security background, these are t
 ---
 
 Developed by **Noor Ullah Bacha**
-Advanced Computer Programming project – Riphah International University (2021)
+
+# 📌 Source Code Availability & Disclaimer
+This repository is shared for portfolio and educational showcase purposes only, highlighting the project's features and functionality through screenshots and descriptions.
+
+The complete source code is not publicly available but may be provided upon request for professional or recruitment purposes, subject to applicable confidentiality restrictions.
